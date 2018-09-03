@@ -41,4 +41,10 @@ public class AppTest
         String helloworld = "helloworld";
         assertTrue( helloworld == "helloworld" );
     }
+
+    public void testInt()
+    {
+        int number = 123;
+        assertTrue( number == 123 );
+    }
 }
